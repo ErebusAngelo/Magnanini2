@@ -213,7 +213,7 @@ footer {
 
 
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1024px) {
     .openmenu,
     .closemenu{
         display: block;
@@ -278,4 +278,21 @@ footer {
     .title-image{
         max-width: 600px;
     }
+
+    .cards{
+        flex-direction:column;
+    }
+
+    .card1, .card2 {
+        background-color: #399DD7;
+        padding: 5%;
+        text-align: center;
+        width: 100%; /* Cada tarjeta ocupa el 50% del ancho */
+        box-sizing: border-box; /* Evita que el padding afecte el ancho total */
+    }
+
+    .card2{
+        background-color:#1A90D4 ;
+    }
+    
 }
