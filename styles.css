@@ -91,7 +91,7 @@ header{
 
 /* Estilo para el contenedor de la imagen de fondo */
 .title-image {
-    background-image: url("/Separador/Rectitulo.png"); /* Reemplaza 'ruta-de-la-imagen.jpg' con la URL de tu imagen */
+    background-image: url("/separador/Rectitulo.png"); /* Reemplaza 'ruta-de-la-imagen.jpg' con la URL de tu imagen */
     background-size: cover;
     background-position: center;
     height: 55px;
